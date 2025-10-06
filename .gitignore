@@ -1,0 +1,33 @@
+# --- Arduino / ESP32 build artifacts ---
+*.bin
+*.elf
+*.map
+*.hex
+*.obj
+*.o
+*.d
+*.log
+build/
+cmake-build-*/
+.vscode/
+.idea/
+
+# --- SD card binaries you don't want in git ---
+*.db
+*.db-journal
+*.wal
+*.shm
+
+# --- OS noise ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Visual Studio / .NET (if you add the DB builder later) ---
+bin/
+obj/
+*.user
+*.suo
+*.cache
+
+)
